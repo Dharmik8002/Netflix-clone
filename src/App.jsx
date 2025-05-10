@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   const navigate = useNavigate();
-
+  
   useEffect(() => {
     onAuthStateChanged(auth, async (user) => {
       if (user) {
